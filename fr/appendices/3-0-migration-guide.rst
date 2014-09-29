@@ -352,7 +352,7 @@ Router
   puissantes et flexibles.
 * Les paramètres persistents ont été retirés. Ils ont été remplacés par
   :php:meth:`Cake\\Routing\\Router::urlFilter()` qui est une meilleur façon
-  plus flexible pour changer les urls étant routées inversement.
+  plus flexible pour changer les URLs étant routées inversement.
 * La signature de :php:meth:`Cake\\Routing\\Router::parseExtensions()` a changé
   en ``parseExtensions(string|array $extensions = null, $merge = true)``. Elle
   ne prend plus d'arguments variables pour la spécification des extensions.
